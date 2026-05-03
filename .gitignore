@@ -27,6 +27,7 @@ target/ # Rust builds
 go/
 ibus/
 ibus/bus/
+obs-studio/
 
 # --- Shell & Terminal History ---
 # Don't track your private command history
