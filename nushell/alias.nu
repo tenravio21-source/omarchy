@@ -14,6 +14,7 @@ alias p = pwd
 alias v = nvim
 alias vi = nvims
 alias nc = with-env { NVIM_APPNAME: "NvChad" } { ^nvim }
+alias nvc = with-env { NVIM_APPNAME: "NvChad" } { neovide }
 
 # Git (Enhanced)
 alias gc = git commit -m
