@@ -1,0 +1,16 @@
+{
+  "excludedApps": {
+    "ghostty": true,
+    "swayosd": true,
+    "vencord": true,
+    "warp": true,
+    "wofi": true,
+    "zellij": true
+  },
+  "includeGtk": true,
+  "includeNeovim": true,
+  "includeVscode": false,
+  "includeZed": true,
+  "selectedNeovimConfig": "",
+  "videoCpuMode": false
+}
