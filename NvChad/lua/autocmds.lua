@@ -32,10 +32,3 @@ autocmd("BufDelete", {
 		end
 	end,
 })
-
-vim.api.nvim_create_autocmd("FileType", {
-	pattern = "flutterlog",
-	callback = function()
-		vim.cmd("vertical resize 10")
-	end,
-})

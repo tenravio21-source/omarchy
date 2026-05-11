@@ -6,5 +6,3 @@ vim.o.shell = "nu"
 
 -- local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
-
-vim.opt.equalalways = false
