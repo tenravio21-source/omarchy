@@ -18,6 +18,12 @@ return {
 	},
 	config = function()
 		require("flutter-tools").setup({
+			dev_log = {
+				enabled = true,
+				open_cmd = "10vsplit",
+				focus_on_open = false,
+				notify_errors = false,
+			},
 			ui = {
 				border = "rounded",
 				notification_style = "native",
@@ -37,13 +43,13 @@ return {
 				enabled = true,
 			},
 			lsp = {
-				color = {
-					enabled = true,
-					background = false,
-					foreground = false,
-					virtual_text = true,
-					virtual_text_str = "■",
-				},
+				-- color = {
+				-- 	enabled = true,
+				-- 	background = false,
+				-- 	foreground = false,
+				-- 	virtual_text = true,
+				-- 	virtual_text_str = "■",
+				-- },
 				settings = {
 					showTodos = true,
 					completeFunctionCalls = true,
