@@ -8,6 +8,7 @@ local options = {
 		javascript = { "prettier" },
 		json = { "prettier" },
 		typescriptreact = { "prettier" },
+		sh = { "shfmt" },
 		-- c = { "clang-format" },
 		-- cpp = { "clang-format" },
 		go = { "gofumpt", "goimports-reviser", "golines" },
