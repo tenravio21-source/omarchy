@@ -14,6 +14,8 @@ path add ($env.HOME | path join ".sdk" "node" "bin")
 
 path add ($env.HOME | path join ".sdk" "java" "bin")
 
+$env.JAVA_HOME = (mise where java)
+
 path add ($env.HOME | path join ".sdk" "gradle" "bin")
 
 path add ($env.HOME | path join ".sdk" "spring" "bin")
