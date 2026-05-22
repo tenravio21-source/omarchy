@@ -28,6 +28,9 @@ go/
 ibus/
 ibus/bus/
 obs-studio/
+BraveSoftware/
+BraveSoftware/
+BraveSoftware/Brave-Browser/
 
 # --- Shell & Terminal History ---
 # Don't track your private command history

@@ -8,11 +8,15 @@ path add ($env.HOME | path join ".cargo" "bin")
 
 path add ($env.HOME | path join ".cli" "bin")
 
+path add ($env.HOME | path join ".zero" "bin")
+
 path add ($env.HOME | path join ".sdk" "node" "bin")
 
 path add ($env.HOME | path join ".sdk" "java" "bin")
 
 path add ($env.HOME | path join ".sdk" "gradle" "bin")
+
+path add ($env.HOME | path join ".sdk" "spring" "bin")
 
 path add ($env.HOME | path join ".sdk" "maven" "bin")
 
