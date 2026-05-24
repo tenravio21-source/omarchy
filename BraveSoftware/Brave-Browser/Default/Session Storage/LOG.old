@@ -1,8 +1,2 @@
-2026/05/17-12:15:54.424 5 Creating DB /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage__tmp_for_rebuild since it was missing.
-2026/05/17-12:15:54.548 5 Reusing MANIFEST /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage__tmp_for_rebuild/MANIFEST-000001
-2026/05/17-12:15:54.551 8 Level-0 table #5: started
-2026/05/17-12:15:54.552 5 Current memtable full; waiting...
-2026/05/17-12:15:54.605 8 Level-0 table #5: 58293 bytes OK
-2026/05/17-12:15:54.687 8 Delete type=0 #3
-2026/05/17-12:15:54.688 7 Level-0 table #7: started
-2026/05/17-12:15:54.734 7 Level-0 table #7: 16400 bytes OK
+2026/05/24-10:15:04.471 5 Creating DB /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage__tmp_for_rebuild since it was missing.
+2026/05/24-10:15:04.620 5 Reusing MANIFEST /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage__tmp_for_rebuild/MANIFEST-000001

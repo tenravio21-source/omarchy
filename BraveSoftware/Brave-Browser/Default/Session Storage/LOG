@@ -1,7 +1,3 @@
-2026/05/17-12:15:54.739 5 Reusing MANIFEST /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2026/05/17-12:15:54.740 5 Recovering log #4
-2026/05/17-12:15:54.740 5 Level-0 table #7: started
-2026/05/17-12:15:54.794 5 Level-0 table #7: 16400 bytes OK
-2026/05/17-12:15:54.794 5 Recovering log #6
-2026/05/17-12:15:54.794 5 Reusing old log /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000006.log 
-2026/05/17-12:15:54.866 5 Delete type=0 #4
+2026/05/24-10:15:04.624 5 Reusing MANIFEST /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2026/05/24-10:15:04.624 5 Recovering log #3
+2026/05/24-10:15:04.624 5 Reusing old log /home/rio/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000003.log 

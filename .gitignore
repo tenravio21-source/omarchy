@@ -31,6 +31,8 @@ obs-studio/
 BraveSoftware/
 BraveSoftware/
 BraveSoftware/Brave-Browser/
+BraveSoftware/Brave-Browser/Default/Extensions/
+BraveSoftware/Brave-Browser/Default/
 
 # --- Shell & Terminal History ---
 # Don't track your private command history
