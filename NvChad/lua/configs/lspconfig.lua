@@ -1,6 +1,7 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "lua-ls", "dartls", "rust_analyzer", "pyrefly", "gopls", "vtsls", "eslint", "html-lsp", "jdtls" }
+local servers =
+	{ "lua-ls", "dartls", "rust_analyzer", "pyrefly", "gopls", "vtsls", "eslint", "html-lsp", "jdtls", "clangd" }
 vim.lsp.enable(servers)
 
 -- read :h vim.lsp.config for changing options of lsp servers
