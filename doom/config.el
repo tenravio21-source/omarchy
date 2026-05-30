@@ -108,9 +108,20 @@
 ;; ---------------------------------------------------------
 ;; Stop Escape from closing Flutter/Build windows
 ;; ---------------------------------------------------------
-
 (after! popup
-  ;; Remove Escape from closing the active layout overlay
-  (define-key doom-popup-mode-map [escape] nil))
+  ;; Use the correct internal map name to prevent void-variable errors
+  (define-key +popup-buffer-mode-map [escape] nil))
 
 
+;; ---------------------------------------------------------
+;; Asynchronous, Bulletproof Format-on-Save via Apheleia
+;; ---------------------------------------------------------
+(use-package! apheleia
+  :init
+  (apheleia-global-mode 1)
+  :config
+  ;; Explicitly point dart-mode to the native flutter toolchain formatter
+  (setf (alist-get 'dart-mode apheleia-formatters)
+        '("dart" "format"))
+  (setf (alist-get 'dart-mode apheleia-mode-alist)
+        'dart-mode))

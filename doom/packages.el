@@ -54,3 +54,4 @@
 ;; (unpin! t)
 
 (package! consult-lsp)
+(package! apheleia)
