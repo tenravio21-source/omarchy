@@ -76,7 +76,12 @@
 
 ;; Define the primary coding font and its structural sizes
 
-
+(map! :nv "C-h" #'evil-window-left
+      :nv "C-j" #'evil-window-down
+      :nv "C-k" #'evil-window-up
+      :nv "C-l" #'evil-window-right
+      :nv "SPC s v" #'evil-window-vsplit  ; Vertical Split (like :vsp)
+      :nv "SPC s h" #'evil-window-split)  ; Horizontal Split (like :sp)
 
 (setq doom-font (font-spec :family "Maple Mono NF" :size 17 :weight 'regular)
       doom-variable-pitch-font (font-spec :family "Maple Mono NF" :size 17))
