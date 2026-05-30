@@ -24,4 +24,6 @@ path add ($env.HOME | path join ".sdk" "maven" "bin")
 
 path add ($env.HOME | path join ".sdk" "flutter" "bin")
 
+$env.PATH = ($env.PATH | split row (char esep) | append $"($env.HOME)/.config/emacs/bin")
+
 zoxide init nushell | save -f ~/.zoxide.nu
