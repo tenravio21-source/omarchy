@@ -105,17 +105,6 @@
   ;; Enables clean grid indexing for searches
   (vertico-indexed-mode 1))
 
-;; ---------------------------------------------------------
-;; Stop Escape from closing Flutter/Build windows
-;; ---------------------------------------------------------
-(after! popup
-  ;; Use the correct internal map name to prevent void-variable errors
-  (define-key +popup-buffer-mode-map [escape] nil))
-
-
-;; ---------------------------------------------------------
-;; Asynchronous, Bulletproof Format-on-Save via Apheleia
-;; ---------------------------------------------------------
 (use-package! apheleia
   :init
   (apheleia-global-mode 1)
