@@ -73,3 +73,29 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; Define the primary coding font and its structural sizes
+
+
+
+(setq doom-font (font-spec :family "Maple Mono NF" :size 17 :weight 'regular)
+      doom-variable-pitch-font (font-spec :family "Maple Mono NF" :size 17))
+
+;; Optional: If you find text scaling shortcuts useful, you can set the big presentation font size too
+(setq doom-big-font (font-spec :family "Maple Mono NF" :size 20))
+
+(after! lsp-mode
+  ;; Bind Code Actions to the searchable Consult menu
+  (map! :leader
+        :desc "LSP Code Actions" "c a" #'consult-lsp-code-actions)
+  
+  ;; Force K to open a quick, readable description window
+  (map! :nv "K" #'lsp-describe-thing-at-point))
+
+(after! vertico
+  ;; This configures Vertico to behave like a clean, indexed list
+  (setq vertico-count 15  ; Shows 15 lines of results, just like Telescope
+        vertico-resize t) ; Automatically resizes the panel dynamically
+  
+  ;; Enables clean grid indexing for searches
+  (vertico-indexed-mode 1))
