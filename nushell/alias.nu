@@ -2,6 +2,10 @@
 alias ys = ysearch
 alias yr = yremove
 alias yc = yclean
+alias yu = yay -Syu
+alias yy = yay -Sy
+alias yd = yay -Rns 
+alias yq = yay -Q 
 
 # Navigation
 alias e = exit
