@@ -104,3 +104,13 @@
   
   ;; Enables clean grid indexing for searches
   (vertico-indexed-mode 1))
+
+;; ---------------------------------------------------------
+;; Stop Escape from closing Flutter/Build windows
+;; ---------------------------------------------------------
+
+(after! popup
+  ;; Remove Escape from closing the active layout overlay
+  (define-key doom-popup-mode-map [escape] nil))
+
+
