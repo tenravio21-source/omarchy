@@ -2,11 +2,11 @@
   "version": 3,
   "workspaces": [
     {
-      "id": "w9",
+      "id": "wC",
       "custom_name": null,
       "identity_cwd": "/home/rio",
       "public_pane_numbers": {
-        "9": 1
+        "5": 1
       },
       "next_public_pane_number": 2,
       "public_tab_numbers": [
@@ -17,16 +17,16 @@
         {
           "custom_name": null,
           "layout": {
-            "Pane": 9
+            "Pane": 5
           },
           "panes": {
-            "9": {
+            "5": {
               "cwd": "/home/rio"
             }
           },
           "zoomed": false,
-          "focused": 9,
-          "root_pane": 9
+          "focused": 5,
+          "root_pane": 5
         }
       ],
       "active_tab": 0
