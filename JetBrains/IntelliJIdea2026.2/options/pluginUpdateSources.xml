@@ -1,0 +1,15 @@
+<application>
+  <component name="PluginUpdateSources">
+    <sources>
+      <entry pluginId="com.junkfactory.tokyodark">
+        <updateSource host="https://plugins.jetbrains.com/pluginManager" />
+      </entry>
+      <entry pluginId="com.github.catppuccin.jetbrains">
+        <updateSource host="https://plugins.jetbrains.com/pluginManager" />
+      </entry>
+      <entry pluginId="com.mallowigi">
+        <updateSource host="https://plugins.jetbrains.com/pluginManager" />
+      </entry>
+    </sources>
+  </component>
+</application>

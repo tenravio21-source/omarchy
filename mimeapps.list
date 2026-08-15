@@ -45,4 +45,6 @@ video/x-ms-asf=mpv.desktop
 video/x-ogm+ogg=mpv.desktop
 video/x-theora+ogg=mpv.desktop
 application/ogg=mpv.desktop
-x-scheme-handler/mailto=chromium.desktop
+x-scheme-handler/mailto=HEY.desktop
+x-scheme-handler/jetbrains=jetbrainsd.desktop
+x-scheme-handler/aether=li.oever.aether.url-handler.desktop

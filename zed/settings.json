@@ -209,5 +209,5 @@
       "enabled": false,
     },
   },
-  "vim_mode": true,
+  "vim_mode": false,
 }

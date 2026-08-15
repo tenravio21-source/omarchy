@@ -1,0 +1,39 @@
+version: 0.2.1
+log:
+    path: /tmp/vi-sql.log
+    level: info
+    prettyPrint: true
+editor:
+    command: ""
+    env: EDITOR
+    enabled: false
+ui:
+    schemaPanelWidth: 30
+    vimMode: true
+mcp:
+    enabled: false
+    port: 0
+    allowRead: false
+    allowWrite: false
+security:
+    method: keyring
+showConnectionPage: true
+currentConnection: store_api
+connections:
+    - id: 25b6970a-d7e5-422e-b6d4-6d8e1d461f74
+      driver: mariadb
+      dsn: ""
+      host: localhost
+      port: 3306
+      database: store_api
+      username: root
+      password: enc:keyring:cc2bf0fb3bf6032a47b84e60015540fe258a7b548a405da9dcfc51ff655162d64f55fd291d817c
+      sslMode: "false"
+      name: store_api
+      timeout: 5
+      options:
+        alwaysConfirmActions: true
+      lastUsed: 2026-08-13T18:11:04.838172277+05:30
+styles:
+    nerdFont: true
+    currentStyle: default.yaml

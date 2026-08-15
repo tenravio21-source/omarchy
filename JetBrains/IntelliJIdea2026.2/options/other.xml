@@ -1,0 +1,299 @@
+<application>
+  <component name="AipLicense">
+    <option name="jbaActivationIntended" value="true" />
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NextEditActionFeaturesState">
+    <decayedPasteEvents>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.077E-321" />
+      <entry key="S5" value="4.0991484573384845E-129" />
+      <entry key="S10" value="6.4024592597989135E-65" />
+      <entry key="S30" value="4.000512280180884E-22" />
+      <entry key="S60" value="2.0001280659449992E-11" />
+      <entry key="M2" value="4.47227913478687E-6" />
+      <entry key="M5" value="0.007247889453992185" />
+      <entry key="M10" value="0.08513453737462948" />
+      <entry key="M15" value="0.19352504937363077" />
+      <entry key="M30" value="0.4399148205887485" />
+      <entry key="H1" value="0.663260748566315" />
+      <entry key="H2" value="0.8144082198543401" />
+      <entry key="H4" value="0.9024456880357621" />
+      <entry key="D1" value="0.9830377123653491" />
+      <entry key="W1" value="0.9975590133495229" />
+    </decayedPasteEvents>
+    <decayedRedoEvents>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedRedoEvents>
+    <decayedUndoEvents>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0000000000477303" />
+      <entry key="M2" value="1.000009946417835" />
+      <entry key="M5" value="1.0171256281271275" />
+      <entry key="M10" value="1.2193744922834828" />
+      <entry key="M15" value="1.5202158088989328" />
+      <entry key="M30" value="2.2436850512517768" />
+      <entry key="H1" value="2.929343133419812" />
+      <entry key="H2" value="3.4051176168443678" />
+      <entry key="H4" value="3.6859395264796757" />
+      <entry key="D1" value="3.945184713783062" />
+      <entry key="W1" value="3.9921064520704763" />
+    </decayedUndoEvents>
+  </component>
+  <component name="NextEditCaretFeaturesState">
+    <decayedBetweenFilesMoves>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="9.643737243813986E-256" />
+      <entry key="S2" value="1.7865299386419665E-64" />
+      <entry key="S5" value="3.7188306086985363E-26" />
+      <entry key="S10" value="2.5384142856037824E-13" />
+      <entry key="S30" value="1.0874776421636877E-4" />
+      <entry key="S60" value="0.017772830623417328" />
+      <entry key="M2" value="0.25296432568376115" />
+      <entry key="M5" value="1.7682768481974547" />
+      <entry key="M10" value="5.358885521585223" />
+      <entry key="M15" value="9.238596960489252" />
+      <entry key="M30" value="19.78698055827786" />
+      <entry key="H1" value="34.692338499914506" />
+      <entry key="H2" value="49.51820039640968" />
+      <entry key="H4" value="60.478367420346046" />
+      <entry key="D1" value="72.28074895837678" />
+      <entry key="W1" value="74.60342174042812" />
+    </decayedBetweenFilesMoves>
+    <decayedWithinFileMoves>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000003890196779" />
+      <entry key="S5" value="1.080874233370913" />
+      <entry key="S10" value="3.435020144329255" />
+      <entry key="S30" value="25.547346023090736" />
+      <entry key="S60" value="45.9878952014208" />
+      <entry key="M2" value="71.55775892458264" />
+      <entry key="M5" value="128.13749573098988" />
+      <entry key="M10" value="210.3432591570042" />
+      <entry key="M15" value="312.0119314184893" />
+      <entry key="M30" value="647.419844233807" />
+      <entry key="H1" value="1143.3033200602476" />
+      <entry key="H2" value="1625.2654400801196" />
+      <entry key="H4" value="1974.4410412575937" />
+      <entry key="D1" value="2345.216124135459" />
+      <entry key="W1" value="2417.6486261553596" />
+    </decayedWithinFileMoves>
+  </component>
+  <component name="NextEditInlineCompletionFeaturesState">
+    <decayedAccepted>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedAccepted>
+    <decayedRejected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000007894116287" />
+      <entry key="S60" value="1.0040939563060982" />
+      <entry key="M2" value="1.3271891189258143" />
+      <entry key="M5" value="7.525436135822443" />
+      <entry key="M10" value="36.44574868451796" />
+      <entry key="M15" value="86.16527010475043" />
+      <entry key="M30" value="268.31260153317686" />
+      <entry key="H1" value="543.990814201082" />
+      <entry key="H2" value="807.4421759313198" />
+      <entry key="H4" value="994.5284004886265" />
+      <entry key="D1" value="1189.809334095338" />
+      <entry key="W1" value="1227.5726554981793" />
+    </decayedRejected>
+    <decayedShown>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedShown>
+  </component>
+  <component name="NextEditTypingFeaturesState">
+    <decayedRemovalEvents>
+      <entry key="MS100" value="3.0412675592989424E-29" />
+      <entry key="MS500" value="5.3445555323122135E-6" />
+      <entry key="S2" value="0.13511525838408447" />
+      <entry key="S5" value="1.0310768466720972" />
+      <entry key="S10" value="2.0306624476312405" />
+      <entry key="S30" value="3.1908828309378925" />
+      <entry key="S60" value="3.573585906292217" />
+      <entry key="M2" value="3.9225995450479747" />
+      <entry key="M5" value="8.16264631604602" />
+      <entry key="M10" value="25.180840368077313" />
+      <entry key="M15" value="46.98881959140152" />
+      <entry key="M30" value="104.98576465188499" />
+      <entry key="H1" value="172.6675571426914" />
+      <entry key="H2" value="229.14436029205964" />
+      <entry key="H4" value="266.76017290867486" />
+      <entry key="D1" value="304.59641229268897" />
+      <entry key="W1" value="311.7809488602759" />
+    </decayedRemovalEvents>
+    <decayedTypingEvents>
+      <entry key="MS100" value="1.599020337174411" />
+      <entry key="MS500" value="4.035714771289416" />
+      <entry key="S2" value="8.204053370277581" />
+      <entry key="S5" value="14.209168802290396" />
+      <entry key="S10" value="18.983029274774353" />
+      <entry key="S30" value="24.128822623439532" />
+      <entry key="S60" value="25.895511760795166" />
+      <entry key="M2" value="27.08707456378902" />
+      <entry key="M5" value="32.1517710189639" />
+      <entry key="M10" value="56.42473382038677" />
+      <entry key="M15" value="99.91087455578996" />
+      <entry key="M30" value="259.4319725576198" />
+      <entry key="H1" value="500.99985247644355" />
+      <entry key="H2" value="733.9057807273301" />
+      <entry key="H4" value="900.7411579208402" />
+      <entry key="D1" value="1076.1374368643214" />
+      <entry key="W1" value="1110.1983077991536" />
+    </decayedTypingEvents>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Maple Mono NF" />
+    <option name="fontSize" value="13.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AIHubNotificationManager.lastUsedLicenseType": "NONE",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "7",
+    "MarketplacePluginsSearchHistory": "icon /sortBy:downloads\nicon\nicons\nico\ntokyo",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "NewProjectWizard.gitState": "true",
+    "NewProjectWizard.groupIdState": "com.rio",
+    "RunOnceActivity.AIPromoWindowAdvisorPreheat": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.TerminalEngineMigration.2026.1": "true",
+    "RunOnceActivity.TerminalOptionsProvider.appTitleMigration.2026.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.gateway.wsl.native.mode.default.set": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.llm.onboarding.window.launcher.v7": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "RunOnceActivity.set.default.devcontainer.project.open.action": "true",
+    "SettingsSearchHistory": "plu",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.eap.value.applied.mode": "ga",
+    "cef_cleanup_temporary_cache_folder": "/home/rio/.cache/JetBrains/IntelliJIdea2026.2/jcef_cache_temp",
+    "cef_version_last_used": "144",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Maven",
+    "enter_selection_count": "5",
+    "evlsprt3.262": "4",
+    "experimental.ui.on.first.startup": "true",
+    "file.gist.reindex.count": "1",
+    "fileTypeChangedCounter": "45",
+    "filter_non_existing": "true",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "git.working.trees.number.of.projects.with.git": "1",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.database.cloud.explorer.promo": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "ide.islands.ab3": "true",
+    "ide.islands.new.darcula": "true",
+    "ift.hide.welcome.screen.promo": "true",
+    "installed.kotlin.plugin.version": "262.9437.185-IJ",
+    "jdk.selected.JAVA_MODULE": "Oracle OpenJDK 26.0.1",
+    "llm.installer.auto.activation.executed": "true",
+    "llm.installer.last.toolwindow.state": "AI_ASSISTANT",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_TokyoDark",
+    "project.wizard.group": "SpringInitializr",
+    "registry.to.advanced.settings.migration.build": "IU-262.9437.185",
+    "settings.new.badge.shown.count.configurable.group.editor": "3",
+    "settings.new.badge.shown.count.preferences.editor": "3",
+    "trial.state.free.trial.expiration.date": "1789151400000",
+    "trial.state.last.availability.check": "1786627585071",
+    "trial.state.last.availability.state": "true",
+    "trial.state.last.state": "ACTIVE",
+    "ts.lib.d.ts.version": "6.0.3",
+    "vcs.branch.view.splitter.proportion": "0.111280486",
+    "vcs.log.changes.splitter.proportion": "0.30987126"
+  },
+  "keyToStringList": {
+    "AIHubNotificationManager.lastAllNotifications": [],
+    "AIHubNotificationManager.notifications": [],
+    "AIHubNotificationManager.seenNotifications": [],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ],
+    "trial.active.editor.tab.shown.versions": [
+      "IU-2026.2"
+    ]
+  }
+}]]></component>
+  <component name="ReworkedTerminalUsage">{
+  &quot;firstIdeSessionMoment&quot;: {
+    &quot;type&quot;: &quot;org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.Version&quot;,
+    &quot;build&quot;: &quot;IU-262.9437.185&quot;
+  }
+}</component>
+  <component name="TerminalAgentsState">{}</component>
+</application>

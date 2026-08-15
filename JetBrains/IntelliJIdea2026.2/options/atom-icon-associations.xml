@@ -1,0 +1,81 @@
+<application>
+  <component name="Atom Icon Selections Config">
+    <option name="selectedFileAssociations">
+      <SelectedAssociations>
+        <option name="associationsList">
+          <RegexAssociation>
+            <option name="matcher" value=".*/(tests?|units?|junit)/.*\.java$" />
+            <option name="pattern" value=".*/(tests?|units?|junit)/.*\.java$" />
+            <option name="defaultState" value="false" />
+            <option name="touched" value="true" />
+            <option name="name" value="Test Java Folder" />
+            <option name="icon" value="/icons/files/testjavafiles.svg" />
+            <option name="priority" value="50" />
+            <option name="iconColor" value="7963E6" />
+            <option name="folderColor" />
+            <option name="folderIconColor" />
+            <option name="iconPack" value="TESTS" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value=".*\.(powershell|ps1|psd1|psc1|psm1|ps1xml|pssc|cmd)$" />
+            <option name="pattern" value=".*\.(powershell|ps1|psd1|psc1|psm1|ps1xml|pssc|cmd)$" />
+            <option name="defaultState" value="false" />
+            <option name="touched" value="true" />
+            <option name="name" value="PowerShell" />
+            <option name="icon" value="/icons/files/powershell.svg" />
+            <option name="iconColor" value="497CE3" />
+            <option name="folderColor" />
+            <option name="folderIconColor" />
+            <option name="iconPack" />
+          </RegexAssociation>
+        </option>
+      </SelectedAssociations>
+    </option>
+    <option name="selectedFolderAssociations">
+      <SelectedAssociations>
+        <option name="iconType" value="FOLDER" />
+        <option name="associationsList">
+          <RegexAssociation>
+            <option name="matcher" value="^[\._]?(carts?|shops?|baskets?|marketing|products?|skus?)$" />
+            <option name="pattern" value="^[\._]?(carts?|shops?|baskets?|marketing|products?|skus?)$" />
+            <option name="defaultState" value="false" />
+            <option name="touched" value="true" />
+            <option name="iconType" value="FOLDER" />
+            <option name="name" value="Cart" />
+            <option name="icon" value="/cart.svg" />
+            <option name="iconColor" />
+            <option name="folderColor" value="FFA000" />
+            <option name="folderIconColor" value="FFECB3" />
+            <option name="iconPack" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="^[\._]?(java|jdk)$" />
+            <option name="pattern" value="^[\._]?(java|jdk)$" />
+            <option name="defaultState" value="false" />
+            <option name="touched" value="true" />
+            <option name="iconType" value="FOLDER" />
+            <option name="name" value="Java" />
+            <option name="icon" value="/java.svg" />
+            <option name="iconColor" />
+            <option name="folderColor" value="AB47BC" />
+            <option name="folderIconColor" value="E1BEE7" />
+            <option name="iconPack" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="^[\._]?(maven|mvn|pom)$" />
+            <option name="pattern" value="^[\._]?(maven|mvn|pom)$" />
+            <option name="defaultState" value="false" />
+            <option name="touched" value="true" />
+            <option name="iconType" value="FOLDER" />
+            <option name="name" value="Maven" />
+            <option name="icon" value="/maven.svg" />
+            <option name="iconColor" />
+            <option name="folderColor" value="93254A" />
+            <option name="folderIconColor" value="F13C6F" />
+            <option name="iconPack" />
+          </RegexAssociation>
+        </option>
+      </SelectedAssociations>
+    </option>
+  </component>
+</application>
