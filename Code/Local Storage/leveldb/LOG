@@ -1,0 +1,4 @@
+2026/08/17-22:09:14.459 7c2a Creating DB /home/rio/.config/Code/Local Storage/leveldb since it was missing.
+2026/08/17-22:09:14.585 7c2a Reusing MANIFEST /home/rio/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2026/08/17-22:09:14.585 7c2a Recovering log #3
+2026/08/17-22:09:14.585 7c2a Reusing old log /home/rio/.config/Code/Local Storage/leveldb/000003.log 
