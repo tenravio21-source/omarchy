@@ -28,6 +28,18 @@
             <option name="folderIconColor" />
             <option name="iconPack" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value=".*\.meta(data)?$" />
+            <option name="pattern" value=".*\.meta(data)?$" />
+            <option name="defaultState" value="false" />
+            <option name="touched" value="true" />
+            <option name="name" value="Metadata" />
+            <option name="icon" value="/icons/files/metadata.svg" />
+            <option name="iconColor" value="FFC61B" />
+            <option name="folderColor" />
+            <option name="folderIconColor" />
+            <option name="iconPack" />
+          </RegexAssociation>
         </option>
       </SelectedAssociations>
     </option>
@@ -72,6 +84,19 @@
             <option name="iconColor" />
             <option name="folderColor" value="93254A" />
             <option name="folderIconColor" value="F13C6F" />
+            <option name="iconPack" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="^[\._]?(errors?|exceptions?|crash(es)?)$" />
+            <option name="pattern" value="^[\._]?(errors?|exceptions?|crash(es)?)$" />
+            <option name="defaultState" value="false" />
+            <option name="touched" value="true" />
+            <option name="iconType" value="FOLDER" />
+            <option name="name" value="Error" />
+            <option name="icon" value="/error.svg" />
+            <option name="iconColor" />
+            <option name="folderColor" value="ef5350" />
+            <option name="folderIconColor" value="ffcdd2" />
             <option name="iconPack" />
           </RegexAssociation>
         </option>

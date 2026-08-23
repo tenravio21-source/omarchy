@@ -22,13 +22,13 @@
     <size key="GridCell.Tab.4.bottom.0.0.2880.1620@192dpi" width="2716" height="720" />
   </component>
   <component name="WindowManager">
-    <frame x="0" y="0" width="1432" height="776" extendedState="6" />
+    <frame x="0" y="0" width="1528" height="830" extendedState="6" />
   </component>
   <component name="WindowStateApplicationService">
-    <state x="764" y="415" width="1528" height="830" key="WELCOME_SCREEN" timestamp="1786984650395">
+    <state x="764" y="415" width="1528" height="830" key="WELCOME_SCREEN" timestamp="1787154751278">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="400" y="325" width="800" height="650" key="WELCOME_SCREEN/0.0.1440.810" timestamp="1786637176080" />
-    <state x="764" y="415" width="1528" height="830" key="WELCOME_SCREEN/0.0.1536.864" timestamp="1786984650395" />
+    <state x="764" y="415" width="1528" height="830" key="WELCOME_SCREEN/0.0.1536.864" timestamp="1787154751278" />
   </component>
 </application>

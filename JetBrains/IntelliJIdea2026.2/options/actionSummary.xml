@@ -18,8 +18,11 @@
     <e n="AIHub.InstallExperimentalFeatures">
       <i c="1" l="1786628416727" />
     </e>
+    <e n="CheckForUpdate">
+      <i c="1" l="1787154425499" />
+    </e>
     <e n="CloseProject">
-      <i c="1" l="1786637169913" />
+      <i c="2" l="1787154747449" />
     </e>
     <e n="CreateDesktopEntry">
       <i c="2" l="1786632362732" />
@@ -28,7 +31,7 @@
       <i c="1" l="1786632505279" />
     </e>
     <e n="EditorBackSpace">
-      <i c="403" l="1786636659922" />
+      <i c="407" l="1787154711928" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="113" l="1786635885961" />
@@ -43,7 +46,7 @@
       <i c="1" l="1786635296635" />
     </e>
     <e n="EditorDown">
-      <i c="75" l="1786635882950" />
+      <i c="80" l="1787154512202" />
     </e>
     <e n="EditorEnter">
       <i c="61" l="1786635876540" />
@@ -109,7 +112,7 @@
       <i c="1" l="1786632114699" />
     </e>
     <e n="ShowSettings">
-      <i c="8" l="1786632451834" />
+      <i c="11" l="1787154689069" />
     </e>
     <e n="Stop">
       <i c="2" l="1786631169312" />
@@ -126,6 +129,9 @@
     <e n="Tree-selectPreviousExtendSelection">
       <i c="2" l="1786630435498" />
     </e>
+    <e n="TrialStateWidget">
+      <i c="1" l="1787154733782" />
+    </e>
     <e n="WelcomeScreen.CreateNewProject">
       <i c="1" l="1786627739636" />
     </e>
@@ -134,6 +140,9 @@
     </e>
     <e n="com.intellij.ide.plugins.MarketplacePluginsTab$MarketplaceSortByAction">
       <i c="1" l="1786632136831" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerMain$2">
+      <i c="1" l="1787154555263" />
     </e>
     <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.ExpChooserAction">
       <i c="1" l="1786627601443" />
@@ -145,22 +154,22 @@
       <i c="3" l="1786634036452" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="2" l="1786632243606" />
+      <i c="4" l="1787154434881" />
     </e>
     <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
       <i c="1" l="1786630255515" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="2" l="1786628099867" />
+      <i c="3" l="1787154739480" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
       <i c="1" l="1786629922977" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="15" l="1786636724836" />
+      <i c="16" l="1787154723748" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="13" l="1786637167743" />
+      <i c="18" l="1787154743589" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
       <i c="1" l="1786627639994" />

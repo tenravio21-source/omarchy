@@ -11,7 +11,7 @@
             }
         ]
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 42,
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
@@ -19,35 +19,36 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#121314",
+    "themeBackground": "#1a1b26",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#bfbfbf",
-            "background": "#121314",
-            "editorBackground": "#121314",
-            "titleBarBackground": "#191a1b",
-            "titleBarBorder": "#2a2b2c",
-            "activityBarBackground": "#191a1b",
-            "activityBarBorder": "#2a2b2c",
-            "sideBarBackground": "#191a1b",
-            "sideBarBorder": "#2a2b2c",
-            "panelBackground": "#191a1b",
-            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
-            "agentsPanelBackground": "#191a1b",
-            "agentsPanelBorder": "#2a2b2c",
-            "statusBarBackground": "#191a1b",
-            "statusBarBorder": "#2a2b2c",
-            "statusBarNoFolderBackground": "#191a1b"
+            "foreground": "#787c99",
+            "background": "#1a1b26",
+            "editorBackground": "#1a1b26",
+            "titleBarBackground": "#16161e",
+            "titleBarBorder": "#101014",
+            "activityBarBackground": "#16161e",
+            "activityBarBorder": "#16161e",
+            "sideBarBackground": "#16161e",
+            "sideBarBorder": "#101014",
+            "panelBackground": "#16161e",
+            "editorGroupBorder": "#101014",
+            "agentsPanelBackground": "#16161e",
+            "agentsPanelBorder": "rgba(120, 124, 153, 0.15)",
+            "statusBarBackground": "#16161e",
+            "statusBarBorder": "#101014",
+            "statusBarNoFolderBackground": "#16161e",
+            "windowBorder": "#0d0f17"
         },
         "layoutInfo": {
-            "sideBarSide": "left",
+            "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "auxiliaryBarWidth": 300,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false,
             "modernUI": false

@@ -164,6 +164,11 @@
       <item os="win" type="maven" url="com.github.waffle:waffle-jna:1.9.1"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/postgresql-driver-license.txt"/>
     </version>
+    <version version="42.7.13">
+      <item type="maven" url="org.postgresql:postgresql:42.7.13"/>
+      <item os="win" type="maven" url="com.github.waffle:waffle-jna:1.9.1"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/postgresql-driver-license.txt"/>
+    </version>
   </artifact>
 
   <artifact id="jTDS SQL Server and Sybase" name="jTDS (SQL Server and Sybase)">
@@ -978,6 +983,10 @@
     </version>
     <version version="1.23">
       <item name="mongo-jdbc-standalone-1.23.jar" url="https://download.jetbrains.com/idea/jdbc-drivers/MongoDB/mongo-jdbc-standalone-1.23.jar"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/MongoDB/mongodb-license.txt"/>
+    </version>
+    <version version="1.24">
+      <item name="mongo-jdbc-standalone-1.24.jar" url="https://download.jetbrains.com/idea/jdbc-drivers/MongoDB/mongo-jdbc-standalone-1.24.jar"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/MongoDB/mongodb-license.txt"/>
     </version>
     <constraint from="1.19" dbms="MONGO" db-from="4"/><!-- todo: compat -->

@@ -5,6 +5,16 @@
 	},
 	"telemetryLevel": "all",
 	"customizations": [],
+	"defaultShell": "/usr/bin/bash",
+	"allowSignedOutWhenUsable": false,
+	"githubEnterpriseUri": "",
+	"enableCustomTerminalTool": false,
+	"copilotSdkLogLevel": "info",
+	"opus48Prompt": false,
+	"toolSearchEnabled": true,
+	"toolSearchDeferThreshold": 1,
+	"reasoningEffortOverride": "",
+	"modelCapabilityOverrides": {},
 	"systemProxyEnabled": true,
 	"copilotMultiRootEnabled": false,
 	"claudeMultiRootEnabled": false,
@@ -147,15 +157,5 @@
 		"Invoke-Expression": false,
 		"iex": false
 	},
-	"disableRepoInfoTelemetry": false,
-	"enableCustomTerminalTool": false,
-	"githubEnterpriseUri": "",
-	"copilotSdkLogLevel": "info",
-	"opus48Prompt": false,
-	"toolSearchEnabled": true,
-	"toolSearchDeferThreshold": 1,
-	"reasoningEffortOverride": "",
-	"modelCapabilityOverrides": {},
-	"allowSignedOutWhenUsable": false,
-	"defaultShell": "/usr/bin/bash"
+	"disableRepoInfoTelemetry": false
 }
