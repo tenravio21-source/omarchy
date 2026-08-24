@@ -19,7 +19,7 @@
       <i c="1" l="1786628416727" />
     </e>
     <e n="CheckForUpdate">
-      <i c="1" l="1787154425499" />
+      <i c="2" l="1787487638049" />
     </e>
     <e n="CloseProject">
       <i c="2" l="1787154747449" />
@@ -172,7 +172,7 @@
       <i c="18" l="1787154743589" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
-      <i c="1" l="1786627639994" />
+      <i c="2" l="1787487635331" />
     </e>
     <e n="com.intellij.profiler.ui.ExpandablePanel$MyCollapseAction">
       <i c="1" l="1786628613749" />

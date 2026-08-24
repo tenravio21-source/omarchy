@@ -49,9 +49,23 @@
             "activityBarWidth": 48,
             "sideBarWidth": 300,
             "auxiliaryBarWidth": 0,
-            "statusBarHeight": 22,
+            "statusBarHeight": 32,
             "windowBorder": false,
-            "modernUI": false
+            "modernUI": true,
+            "partBounds": {
+                "sideBar": {
+                    "top": 35,
+                    "left": 929,
+                    "width": 296,
+                    "height": 620.3333740234375
+                },
+                "editor": {
+                    "top": 35,
+                    "left": 8,
+                    "width": 917,
+                    "height": 620.3333740234375
+                }
+            }
         }
     },
     "windowsState": {
