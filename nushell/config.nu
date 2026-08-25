@@ -22,4 +22,4 @@ source ./just.nu
 
 source ./alias.nu
 
-source ~/.local/share/atuin/init.nu
+#source ~/.local/share/atuin/init.nu
