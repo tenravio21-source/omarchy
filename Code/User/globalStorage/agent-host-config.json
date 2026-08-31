@@ -13,6 +13,7 @@
 	"opus48Prompt": false,
 	"toolSearchEnabled": true,
 	"toolSearchDeferThreshold": 1,
+	"reasoningSummary": false,
 	"modelCapabilityOverrides": {},
 	"agentMerge.enabled": false,
 	"agentMerge.addressReviews": true,
@@ -183,6 +184,5 @@
 		"iex": false
 	},
 	"autoApprovePolicyRestricted": false,
-	"disableRepoInfoTelemetry": false,
-	"reasoningSummary": false
+	"disableRepoInfoTelemetry": false
 }

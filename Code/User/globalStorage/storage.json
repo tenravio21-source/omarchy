@@ -8,6 +8,9 @@
         "emptyWindows": [
             {
                 "backupFolder": "1786984754732"
+            },
+            {
+                "backupFolder": "1787674214842"
             }
         ]
     },
@@ -15,7 +18,8 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1786984754732": "__default__profile__"
+            "1786984754732": "__default__profile__",
+            "1787674214842": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -47,7 +51,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 170,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 32,
             "windowBorder": false,
@@ -55,14 +59,14 @@
             "partBounds": {
                 "sideBar": {
                     "top": 35,
-                    "left": 929,
-                    "width": 296,
+                    "left": 1059,
+                    "width": 166,
                     "height": 620.3333740234375
                 },
                 "editor": {
                     "top": 35,
                     "left": 8,
-                    "width": 917,
+                    "width": 1047,
                     "height": 620.3333740234375
                 }
             }
@@ -70,7 +74,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/rio/.config/Code/Backups/1786984754732",
+            "backupPath": "/home/rio/.config/Code/Backups/1787674214842",
             "uiState": {
                 "mode": 0,
                 "x": 162,

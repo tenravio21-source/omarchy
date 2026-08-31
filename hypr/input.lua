@@ -3,6 +3,7 @@ hl.config({
 	input = {
 		-- Keyboard Settings
 		kb_layout = "us",
+		kb_options = "compose:ralt",
 		-- kb_variant = "intl",
 		-- kb_options = "compose:caps,shift:both_capslock_cancel,grp:alts_toggle",
 
