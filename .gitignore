@@ -54,7 +54,7 @@ Code/
 
 # --- Fonts & Assets ---
 # Usually better to install these via package manager
-*.ttf
+# *.ttf
 *.otf
 *.woff
 *.woff2
