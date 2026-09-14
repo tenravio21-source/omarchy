@@ -2,3 +2,6 @@
 codex = "latest"
 java = "latest"
 node = "25.9.0"
+
+[settings.upgrade]
+auto_prune = false

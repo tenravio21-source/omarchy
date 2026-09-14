@@ -29,7 +29,7 @@ map ctrl+shift+b set_background_opacity -0.1
 
 
 # Allow remote access
-# allow_remote_control yes
+allow_remote_control yes
 
 # Aesthetics
 cursor_shape block
