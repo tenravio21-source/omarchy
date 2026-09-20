@@ -19,3 +19,13 @@ hl.config({
 hl.config({
 	animations = { enabled = true },
 })
+
+-- >>> omaland managed block >>>
+-- Written by Omaland. Safe to hand-edit: Omaland re-reads this block
+-- every time it opens, and only ever rewrites what's between the fences.
+hl.config({
+  animations = {
+    workspace_wraparound = true,
+  },
+})
+-- <<< omaland managed block <<<

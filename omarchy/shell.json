@@ -19,6 +19,9 @@
           "id": "omarchy.weather"
         },
         {
+          "id": "crmne.hyprmoncfg"
+        },
+        {
           "id": "omarchy.system-update"
         }
       ],
@@ -61,6 +64,21 @@
     "lock": 300,
     "screensaver": 150
   },
-  "plugins": [],
-  "version": 1
+  "plugins": [
+    {
+      "id": "io.github.sirjul1337.lock-explorer",
+      "design": "poster",
+      "blankMs": 15000
+    },
+    {
+      "id": "bobbynicholas.omaland"
+    }
+  ],
+  "version": 1,
+  "disabledPlugins": [
+    "omarchy.lock"
+  ],
+  "cloneSourceRestores": [
+    "io.github.sirjul1337.lock-explorer"
+  ]
 }

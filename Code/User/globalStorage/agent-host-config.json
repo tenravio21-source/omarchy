@@ -4,6 +4,18 @@
 		"deny": []
 	},
 	"telemetryLevel": "all",
+	"disableRepoInfoTelemetry": false,
+	"editTelemetryEnabled": true,
+	"sessionSyncEnabled": false,
+	"codexAgentEnabled": false,
+	"systemProxyEnabled": true,
+	"activeAgentTitleGeneration": false,
+	"markdownPlanRichLinksEnabled": false,
+	"migrateLegacyCopilotCliEnabled": false,
+	"showExternalSessions": "recent",
+	"copilotMultiRootEnabled": false,
+	"claudeMultiRootEnabled": false,
+	"codexMultiRootEnabled": false,
 	"customizations": [],
 	"defaultShell": "/usr/bin/bash",
 	"allowSignedOutWhenUsable": false,
@@ -19,21 +31,17 @@
 	"agentMerge.addressReviews": true,
 	"agentMerge.fixCI": true,
 	"agentMerge.resolveConflicts": true,
-	"agentMerge.mergePullRequest": false,
 	"agentMerge.mergeMethod": "auto",
 	"agentMerge.replyAttribution": true,
-	"activeAgentTitleGeneration": false,
-	"markdownPlanRichLinksEnabled": false,
-	"systemProxyEnabled": true,
-	"copilotMultiRootEnabled": false,
-	"claudeMultiRootEnabled": false,
-	"codexMultiRootEnabled": false,
-	"codexAgentEnabled": false,
-	"migrateLegacyCopilotCliEnabled": false,
-	"showExternalSessions": "none",
+	"agentMerge.mergePullRequest": "never",
+	"artifactTools": false,
+	"autoAttachPullRequests": true,
+	"githubMcpServerEnabled": true,
+	"byokModelsEnabled": true,
+	"autoArchiveMergedSessionsAfterDays": 0,
+	"autoDeleteArchivedMergedSessionsAfterDays": 0,
 	"autoReplyEnabled": false,
 	"globalAutoApproveEnabled": false,
-	"sessionSyncEnabled": false,
 	"editAutoApprovePatterns": {
 		"**/*": true,
 		"**/.git/**": false,
@@ -44,14 +52,18 @@
 		"**/ruby_lsp/*/addon": false,
 		"**/*.lock": false,
 		"**/*-lock.{yaml,json}": false,
+		"**/.mcp.json": false,
+		"**/.npmrc": false,
 		"**/.vscode/*.json": false,
 		"**/.github/agents/**": false,
 		"**/.github/hooks/**": false,
 		"**/.claude/agents/**": false,
 		"**/.claude/settings.json": false,
-		"**/.claude/settings.local.json": false
+		"**/.claude/settings.local.json": false,
+		"**/.codex/agents/**": false,
+		"**/.codex/config.toml": false,
+		"**/.codex/hooks.json": false
 	},
-	"editTelemetryEnabled": true,
 	"terminalAutoApproveEnabled": true,
 	"terminalAutoApproveRules": {
 		"cd": true,
@@ -184,5 +196,45 @@
 		"iex": false
 	},
 	"autoApprovePolicyRestricted": false,
-	"disableRepoInfoTelemetry": false
+	"workspaceTrust": {
+		"enabled": true,
+		"trustedUris": [
+			"file:///home/rio/coding/yt-auth",
+			"file:///home/rio/coding/java_lang/spring-api-starter",
+			"file:///home/rio/coding/apps/blm"
+		]
+	},
+	"sandbox": {
+		"enabled": "off",
+		"enabled.windows": "off",
+		"allowNetwork": true,
+		"allowUnsandboxedCommands": true,
+		"fileSystem.linux": {
+			"denyRead": [],
+			"allowRead": [],
+			"allowWrite": [],
+			"denyWrite": []
+		},
+		"fileSystem.mac": {
+			"denyRead": [],
+			"allowRead": [],
+			"allowWrite": [],
+			"denyWrite": []
+		},
+		"fileSystem.windows": {
+			"denyRead": [],
+			"allowRead": [],
+			"allowWrite": []
+		},
+		"advanced.runtime": {
+			"enableWeakerNestedSandbox": false
+		},
+		"allowedNetworkDomains": [],
+		"deniedNetworkDomains": []
+	},
+	"claudeAdvisor": false,
+	"autoModeTiers": true,
+	"autoModeTierOverride": "",
+	"subagentModelGuidance": false,
+	"enableShellInitScript": false
 }

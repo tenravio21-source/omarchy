@@ -4,21 +4,23 @@
     "telemetry.devDeviceId": "3991664e-5fa8-46a9-82b5-4760522bba7d",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1786984754732"
-            },
+                "folderUri": "file:///home/rio/coding/apps/blm"
+            }
+        ],
+        "emptyWindows": [
             {
                 "backupFolder": "1787674214842"
             }
         ]
     },
-    "windowControlHeight": 42,
+    "windowControlHeight": 36,
     "profileAssociations": {
-        "workspaces": {},
+        "workspaces": {
+            "file:///home/rio/coding/apps/blm": "__default__profile__"
+        },
         "emptyWindows": {
-            "1786984754732": "__default__profile__",
             "1787674214842": "__default__profile__"
         }
     },
@@ -32,13 +34,23 @@
             "background": "#1a1b26",
             "editorBackground": "#1a1b26",
             "titleBarBackground": "#16161e",
+            "titleBarInactiveBackground": "#16161e",
             "titleBarBorder": "#101014",
             "activityBarBackground": "#16161e",
             "activityBarBorder": "#16161e",
+            "modernActivityBarBackground": "#16161e",
+            "modernActivityBarInactiveBackground": "#16161e",
+            "modernActivityBarBorder": "#242530",
+            "modernPanelBorder": "#242530",
+            "modernUIShellBackground": "#16161e",
+            "modernUIInactiveShellBackground": "#16161e",
             "sideBarBackground": "#16161e",
             "sideBarBorder": "#101014",
             "panelBackground": "#16161e",
             "editorGroupBorder": "#101014",
+            "editorBorder": "#242530",
+            "surfaceBackground": "#16161e",
+            "surfaceBorder": "#242530",
             "agentsPanelBackground": "#16161e",
             "agentsPanelBorder": "rgba(120, 124, 153, 0.15)",
             "statusBarBackground": "#16161e",
@@ -49,32 +61,46 @@
         "layoutInfo": {
             "sideBarSide": "right",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 35,
-            "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "titleBarHeight": 30,
+            "activityBarWidth": 0,
+            "sideBarWidth": 303,
             "auxiliaryBarWidth": 0,
-            "statusBarHeight": 32,
+            "statusBarHeight": 0,
             "windowBorder": false,
             "modernUI": true,
+            "modernUICompact": false,
             "partBounds": {
                 "sideBar": {
-                    "top": 35,
-                    "left": 1059,
-                    "width": 166,
-                    "height": 620.3333740234375
+                    "top": 30,
+                    "left": 974,
+                    "width": 295,
+                    "height": 657.3333740234375,
+                    "outerEdges": {
+                        "left": false,
+                        "right": true,
+                        "top": true,
+                        "bottom": true
+                    }
                 },
                 "editor": {
-                    "top": 35,
-                    "left": 8,
-                    "width": 1047,
-                    "height": 620.3333740234375
+                    "top": 30,
+                    "left": 4,
+                    "width": 966,
+                    "height": 657.3333740234375,
+                    "outerEdges": {
+                        "left": true,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
                 }
             }
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/rio/.config/Code/Backups/1787674214842",
+            "folder": "file:///home/rio/coding/apps/blm",
+            "backupPath": "/home/rio/.config/Code/Backups/2c5919a7e73cdfd1dcfa4cd281c3df21",
             "uiState": {
                 "mode": 0,
                 "x": 162,
@@ -84,5 +110,17 @@
             }
         },
         "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 303,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "33a73246d376902408e5247238c4c988": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
     }
 }
