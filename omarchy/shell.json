@@ -19,9 +19,6 @@
           "id": "omarchy.weather"
         },
         {
-          "id": "crmne.hyprmoncfg"
-        },
-        {
           "id": "omarchy.system-update"
         }
       ],
@@ -36,6 +33,12 @@
       "right": [
         {
           "id": "omarchy.tray"
+        },
+        {
+          "id": "io.github.kristoferlund.webcam"
+        },
+        {
+          "id": "stappmus.activity-monitor"
         },
         {
           "id": "omarchy.agents"
