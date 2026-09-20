@@ -9,20 +9,14 @@
                 "folderUri": "file:///home/rio/coding/apps/blm"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1787674214842"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 36,
     "profileAssociations": {
         "workspaces": {
             "file:///home/rio/coding/apps/blm": "__default__profile__"
         },
-        "emptyWindows": {
-            "1787674214842": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#1a1b26",

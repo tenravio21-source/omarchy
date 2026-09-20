@@ -7,12 +7,18 @@
 	"disableRepoInfoTelemetry": false,
 	"editTelemetryEnabled": true,
 	"sessionSyncEnabled": false,
+	"byokModelsEnabled": true,
 	"codexAgentEnabled": false,
 	"systemProxyEnabled": true,
+	"githubMcpServerEnabled": true,
 	"activeAgentTitleGeneration": false,
 	"markdownPlanRichLinksEnabled": false,
+	"artifactTools": false,
+	"autoAttachPullRequests": true,
 	"migrateLegacyCopilotCliEnabled": false,
 	"showExternalSessions": "recent",
+	"autoArchiveMergedSessionsAfterDays": 0,
+	"autoDeleteArchivedMergedSessionsAfterDays": 0,
 	"copilotMultiRootEnabled": false,
 	"claudeMultiRootEnabled": false,
 	"codexMultiRootEnabled": false,
@@ -20,26 +26,53 @@
 	"defaultShell": "/usr/bin/bash",
 	"allowSignedOutWhenUsable": false,
 	"githubEnterpriseUri": "",
+	"sandbox": {
+		"enabled": "off",
+		"enabled.windows": "off",
+		"allowNetwork": true,
+		"allowUnsandboxedCommands": true,
+		"fileSystem.linux": {
+			"denyRead": [],
+			"allowRead": [],
+			"allowWrite": [],
+			"denyWrite": []
+		},
+		"fileSystem.mac": {
+			"denyRead": [],
+			"allowRead": [],
+			"allowWrite": [],
+			"denyWrite": []
+		},
+		"fileSystem.windows": {
+			"denyRead": [],
+			"allowRead": [],
+			"allowWrite": []
+		},
+		"advanced.runtime": {
+			"enableWeakerNestedSandbox": false
+		},
+		"allowedNetworkDomains": [],
+		"deniedNetworkDomains": []
+	},
 	"enableCustomTerminalTool": false,
+	"enableShellInitScript": false,
 	"copilotSdkLogLevel": "info",
+	"claudeAdvisor": false,
 	"opus48Prompt": false,
 	"toolSearchEnabled": true,
 	"toolSearchDeferThreshold": 1,
 	"reasoningSummary": false,
+	"autoModeTiers": true,
+	"autoModeTierOverride": "",
+	"subagentModelGuidance": false,
 	"modelCapabilityOverrides": {},
 	"agentMerge.enabled": false,
 	"agentMerge.addressReviews": true,
 	"agentMerge.fixCI": true,
 	"agentMerge.resolveConflicts": true,
+	"agentMerge.mergePullRequest": "never",
 	"agentMerge.mergeMethod": "auto",
 	"agentMerge.replyAttribution": true,
-	"agentMerge.mergePullRequest": "never",
-	"artifactTools": false,
-	"autoAttachPullRequests": true,
-	"githubMcpServerEnabled": true,
-	"byokModelsEnabled": true,
-	"autoArchiveMergedSessionsAfterDays": 0,
-	"autoDeleteArchivedMergedSessionsAfterDays": 0,
 	"autoReplyEnabled": false,
 	"globalAutoApproveEnabled": false,
 	"editAutoApprovePatterns": {
@@ -203,38 +236,5 @@
 			"file:///home/rio/coding/java_lang/spring-api-starter",
 			"file:///home/rio/coding/apps/blm"
 		]
-	},
-	"sandbox": {
-		"enabled": "off",
-		"enabled.windows": "off",
-		"allowNetwork": true,
-		"allowUnsandboxedCommands": true,
-		"fileSystem.linux": {
-			"denyRead": [],
-			"allowRead": [],
-			"allowWrite": [],
-			"denyWrite": []
-		},
-		"fileSystem.mac": {
-			"denyRead": [],
-			"allowRead": [],
-			"allowWrite": [],
-			"denyWrite": []
-		},
-		"fileSystem.windows": {
-			"denyRead": [],
-			"allowRead": [],
-			"allowWrite": []
-		},
-		"advanced.runtime": {
-			"enableWeakerNestedSandbox": false
-		},
-		"allowedNetworkDomains": [],
-		"deniedNetworkDomains": []
-	},
-	"claudeAdvisor": false,
-	"autoModeTiers": true,
-	"autoModeTierOverride": "",
-	"subagentModelGuidance": false,
-	"enableShellInitScript": false
+	}
 }
