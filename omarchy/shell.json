@@ -56,7 +56,8 @@
           "id": "omarchy.monitor"
         },
         {
-          "id": "omarchy.power"
+          "id": "omarchy.power",
+          "showPercentage": true
         }
       ]
     },
@@ -78,6 +79,9 @@
     },
     {
       "id": "io.github.codesmith28.omalt-tab"
+    },
+    {
+      "id": "omarchy-resizeable.resizeable"
     }
   ],
   "version": 1,

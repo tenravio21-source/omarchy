@@ -234,7 +234,8 @@
 		"trustedUris": [
 			"file:///home/rio/coding/yt-auth",
 			"file:///home/rio/coding/java_lang/spring-api-starter",
-			"file:///home/rio/coding/apps/blm"
+			"file:///home/rio/coding/apps/blm",
+			"file:///home/rio/coding/apps/cheezy_food_app"
 		]
 	}
 }
