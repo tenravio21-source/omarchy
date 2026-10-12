@@ -62,7 +62,7 @@
       ]
     },
     "position": "top",
-    "transparent": false
+    "transparent": true
   },
   "idle": {
     "lock": 300,
@@ -71,7 +71,7 @@
   "plugins": [
     {
       "id": "io.github.sirjul1337.lock-explorer",
-      "design": "poster",
+      "design": "split",
       "blankMs": 15000
     },
     {
@@ -85,10 +85,10 @@
     }
   ],
   "version": 1,
-  "disabledPlugins": [
-    "omarchy.lock"
-  ],
   "cloneSourceRestores": [
     "io.github.sirjul1337.lock-explorer"
+  ],
+  "disabledPlugins": [
+    "omarchy.lock"
   ]
 }
