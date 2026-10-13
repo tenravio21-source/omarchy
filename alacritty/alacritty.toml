@@ -8,9 +8,9 @@ osc52 = "CopyPaste"
 shell.program = "/bin/nu"
 
 [font]
-normal = { family = "Maple Mono NF" }
-bold = { family = "Maple Mono NF" }
-italic = { family = "Maple Mono NF" }
+normal = { family = "Victor Mono" }
+bold = { family = "Victor Mono" }
+italic = { family = "Victor Mono" }
 size = 11.2
 
 [window]
